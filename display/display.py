@@ -314,7 +314,7 @@ class AppState:
     elapsed: float = 0.0
     animations: dict = field(default_factory=dict)
     state_enter_time: float = 0.0  # 进入当前状态的时间
-    min_display_time: float = 2.0  # 最少停留2秒
+    min_display_time: float = 0.3  # 最少停留0.3秒，响应更快
 
     def can_change_state(self) -> bool:
         """检查是否可以切换状态（已停留至少2秒）"""

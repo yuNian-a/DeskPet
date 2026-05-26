@@ -2686,3 +2686,651 @@ Stderr: [hook] Sent state=8
 === Hook called ===
 Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
 Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"Stop","stop_hook_active":false,"last_assistant_message":"现在底部文字没了！只剩纯粹的成�\udcad�堂动画！🎉\n\\n现在显示效果：\n- 🏛�\udc8f 法庭背景\\n- 👔 成�\udcad�堂动画\\n- �\udcaa\udcb5 桌子前景\\n- �\udc8c ~~底部状�\udc80�文字~~ (已删�\udca4)\\n\\n完美了吗？�\udc84"}\n'
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"UserPromptSubmit","prompt":"你好�\udc9f"}\n'
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"Stop","stop_hook_active":false,"last_assistant_message":"你好！我在呢！😄\n\\n刚才我们完成�\udc86 **成�\udcad�堂龙一状�\udc80�显示器** 的调试：\\n- �\udc85 9�\udcaa状�\udc80��\udcaf�应成�\udcad�堂的不同表情动画\n- �\udc85 真实法庭背景（defenseSeat.png + defenseSeatDesk.png）\n- �\udc85 �\udc80少停�\udc992秒，防�\udcad�快速切�\udca2\\n- �\udc85 删除了底部状态文字，�\udcaf�'
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"UserPromptSubmit","prompt":"现在和claude code的hook 好像关联不上了？？？�\udc9f"}\n'
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PreToolUse","tool_name":"Bash","tool_input":{"command":"tail -20 D:/CODE/hooks/hook_debug.log 2>/dev/null || echo \\"No log\\"","description":"Check hook debug log"},"tool_use_id":"Bash_271"}\n'
+Return code: 0
+Stderr: [hook] Sent state=3
+
+---
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PostToolUse","tool_name":"Bash","tool_input":{"command":"tail -20 D:/CODE/hooks/hook_debug.log 2>/dev/null || echo \\"No log\\"","description":"Check hook debug log"},"tool_response":{"stdout":"---\\r\\n=== Hook called ===\\r\\nArgs: [\'D:/CODE/hooks/hooks/ho'
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PreToolUse","tool_name":"Bash","tool_input":{"command":"echo \\"测试 Hook 发�\udc80\udc81 TCP\\"","description":"Test hook sends TCP"},"tool_use_id":"Bash_272"}\n'
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PostToolUse","tool_name":"Bash","tool_input":{"command":"echo \\"测试 Hook 发�\udc80\udc81 TCP\\"","description":"Test hook sends TCP"},"tool_response":{"stdout":"测试 Hook 发�\udc80\udc81 TCP","stderr":"","interrupted":false,"isImage":false,"noOutputExpected":false},"tool_use_'
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PreToolUse","tool_name":"Bash","tool_input":{"command":"netstat -ano | grep 19876 | grep LISTENING","description":"Check if display is listening"},"tool_use_id":"Bash_273"}\n'
+Return code: 0
+Stderr: [hook] Sent state=3
+
+---
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PostToolUse","tool_name":"Bash","tool_input":{"command":"netstat -ano | grep 19876 | grep LISTENING","description":"Check if display is listening"},"tool_response":{"stdout":"  TCP    0.0.0.0:19876          0.0.0.0:0              LISTENING       65600"'
+Return code: 0
+Stderr: [hook] Sent state=8
+
+---
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PreToolUse","tool_name":"Bash","tool_input":{"command":"printf \'{\\"hook_event_name\\":\\"PreToolUse\\",\\"tool_name\\":\\"Bash\\",\\"tool_input\\":{\\"command\\":\\"echo test\\"}}\\\\n\' | D:/Anaconda/python.exe D:/CODE/hooks/hooks/display_hook.py 2>&1","description":'
+Return code: 0
+Stderr: [hook] Sent state=3
+
+---
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PostToolUse","tool_name":"Bash","tool_input":{"command":"printf \'{\\"hook_event_name\\":\\"PreToolUse\\",\\"tool_name\\":\\"Bash\\",\\"tool_input\\":{\\"command\\":\\"echo test\\"}}\\\\n\' | D:/Anaconda/python.exe D:/CODE/hooks/hooks/display_hook.py 2>&1","description"'
+Return code: 0
+Stderr: [hook] Sent state=8
+
+---
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PreToolUse","tool_name":"Bash","tool_input":{"command":"D:/Anaconda/python.exe -c \\"\\nimport socket\\nimport json\\nsock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\\nsock.settimeout(2)\\nsock.connect((\'127.0.0.1\', 19876))\\nsock.send((json.dumps({\''
+Return code: 0
+Stderr: [hook] Sent state=3
+
+---
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PostToolUse","tool_name":"Bash","tool_input":{"command":"D:/Anaconda/python.exe -c \\"\\nimport socket\\nimport json\\nsock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\\nsock.settimeout(2)\\nsock.connect((\'127.0.0.1\', 19876))\\nsock.send((json.dumps({'
+Return code: 0
+Stderr: [hook] Sent state=8
+
+---
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PreToolUse","tool_name":"Bash","tool_input":{"command":"echo \\"测试完整链路\\"","description":"Test full chain"},"tool_use_id":"Bash_276"}\n'
+Return code: 0
+Stderr: [hook] Sent state=3
+
+---
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PostToolUse","tool_name":"Bash","tool_input":{"command":"echo \\"测试完整链路\\"","description":"Test full chain"},"tool_response":{"stdout":"测试完整链路","stderr":"","interrupted":false,"isImage":false,"noOutputExpected":false},"tool_use_id":"Bash_276"}\n'
+Return code: 0
+Stderr: [hook] Sent state=8
+
+---
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PreToolUse","tool_name":"Bash","tool_input":{"command":"echo \\"Hook �\udc8c TCP 都�\udcad�常！�\udcae�我�\udc80查显示器状�\udc80�\"","description":"Check display"},"tool_use_id":"Bash_277"}\n'
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PostToolUse","tool_name":"Bash","tool_input":{"command":"echo \\"Hook �\udc8c TCP 都�\udcad�常！�\udcae�我�\udc80查显示器状�\udc80�\"","description":"Check display"},"tool_response":{"stdout":"Hook �\udc8c TCP 都�\udcad�常！�\udcae�我�\udc80查显示器状�\udc80\udc81","stderr":"","interrupted":false,"isImage":false,"noOutput'
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PreToolUse","tool_name":"Bash","tool_input":{"command":"tasklist | grep python || echo \\"显示器没运�\udca1�\"","description":"Check display status"},"tool_use_id":"Bash_278"}\n'
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PostToolUse","tool_name":"Bash","tool_input":{"command":"tasklist | grep python || echo \\"显示器没运�\udca1�\"","description":"Check display status"},"tool_response":{"stdout":"python.exe                   65600 Console                   12    152,916 K","stder'
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PreToolUse","tool_name":"Bash","tool_input":{"command":"D:/Anaconda/python.exe D:/CODE/hooks/display/display.py send 1","description":"Send state 1 via TCP"},"tool_use_id":"Bash_279"}\n'
+Return code: 0
+Stderr: [hook] Sent state=3
+
+---
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PostToolUse","tool_name":"Bash","tool_input":{"command":"D:/Anaconda/python.exe D:/CODE/hooks/display/display.py send 1","description":"Send state 1 via TCP"},"tool_response":{"stdout":"pygame 2.6.1 (SDL 2.28.4, Python 3.12.7)\\r\\nHello from the pygame '
+Return code: 0
+Stderr: [hook] Sent state=8
+
+---
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PreToolUse","tool_name":"Bash","tool_input":{"command":"echo \\"测试状�\udc80\udc813：异�\udcae！\"","description":"Test state 3"},"tool_use_id":"Bash_280"}\n'
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PostToolUse","tool_name":"Bash","tool_input":{"command":"echo \\"测试状�\udc80\udc813：异�\udcae！\"","description":"Test state 3"},"tool_response":{"stdout":"测试状�\udc80\udc813：异�\udcae�\udc81","stderr":"","interrupted":false,"isImage":false,"noOutputExpected":false},"tool_use_id":"Bash_28'
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PreToolUse","tool_name":"Read","tool_input":{"file_path":"D:\\\\CODE\\\\hooks\\\\hooks\\\\display_hook.py","offset":30},"tool_use_id":"Read_282"}\n'
+Return code: 0
+Stderr: [hook] Sent state=2
+
+---
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PostToolUse","tool_name":"Read","tool_input":{"file_path":"D:\\\\CODE\\\\hooks\\\\hooks\\\\display_hook.py","offset":30},"tool_response":{"type":"text","file":{"filePath":"D:/CODE/hooks/hooks/display_hook.py","content":"\\ndef _send(state: int, msg: str = \\"\\")'
+Return code: 0
+Stderr: [hook] Sent state=8
+
+---
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PreToolUse","tool_name":"Bash","tool_input":{"command":"powershell -Command \\"Get-Process python | Stop-Process -Force\\" 2>nul & sleep 1","description":"Kill display"},"tool_use_id":"Bash_283"}\n'
+Return code: 0
+Stderr: [hook] Sent state=3
+
+---
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PostToolUse","tool_name":"Bash","tool_input":{"command":"powershell -Command \\"Get-Process python | Stop-Process -Force\\" 2>nul & sleep 1","description":"Kill display"},"tool_response":{"stdout":"","stderr":"","interrupted":false,"isImage":false,"noOut'
+Return code: 0
+Stderr: [hook] Sent state=8
+
+---
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PreToolUse","tool_name":"Bash","tool_input":{"command":"start /B D:/Anaconda/python.exe D:/CODE/hooks/display/display.py > D:/CODE/hooks/display_output.log 2>&1","description":"Start display with log"},"tool_use_id":"Bash_284"}\n'
+Return code: 0
+Stderr: [hook] Error: timed out
+
+---
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PostToolUseFailure","tool_name":"Bash","tool_input":{"command":"start /B D:/Anaconda/python.exe D:/CODE/hooks/display/display.py > D:/CODE/hooks/display_output.log 2>&1","description":"Start display with log"},"tool_use_id":"Bash_284","error":"Exit cod'
+Return code: 0
+Stderr: [hook] Error: timed out
+
+---
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PreToolUse","tool_name":"Bash","tool_input":{"command":"cscript //B //Nologo D:/CODE/hooks/launch_display.vbs & sleep 2 & tasklist | grep python","description":"Start display"},"tool_use_id":"Bash_285"}\n'
+Return code: 0
+Stderr: [hook] Error: timed out
+
+---
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PostToolUse","tool_name":"Bash","tool_input":{"command":"cscript //B //Nologo D:/CODE/hooks/launch_display.vbs & sleep 2 & tasklist | grep python","description":"Start display"},"tool_response":{"stdout":"python.exe                   65648 Console     '
+Return code: 0
+Stderr: [hook] Error: timed out
+
+---
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PreToolUse","tool_name":"Bash","tool_input":{"command":"echo \\"Hook 测试 - 应�\udcaf�显示状�\udc811\\"","description":"Test hook"},"tool_use_id":"Bash_286"}\n'
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PostToolUse","tool_name":"Bash","tool_input":{"command":"echo \\"Hook 测试 - 应�\udcaf�显示状�\udc811\\"","description":"Test hook"},"tool_response":{"stdout":"Hook 测试 - 应�\udcaf�显示状�\udc811","stderr":"","interrupted":false,"isImage":false,"noOutputExpected":false},"tool_use_'
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PreToolUse","tool_name":"Bash","tool_input":{"command":"D:/Anaconda/python.exe D:/CODE/hooks/display/display.py send 3","description":"Send state 3 directly"},"tool_use_id":"Bash_287"}\n'
+Return code: 0
+Stderr: [hook] Sent state=3
+
+---
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PostToolUse","tool_name":"Bash","tool_input":{"command":"D:/Anaconda/python.exe D:/CODE/hooks/display/display.py send 3","description":"Send state 3 directly"},"tool_response":{"stdout":"pygame 2.6.1 (SDL 2.28.4, Python 3.12.7)\\r\\nHello from the pygame'
+Return code: 0
+Stderr: [hook] Sent state=8
+
+---
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"Stop","stop_hook_active":false,"last_assistant_message":"TCP 发�\udc80�成功！你的显示器现在显示什么？应�\udcaf�是 **状�\udc80\udc813 (EXECUTING/异�\udcae\udcae)**。Hook 关联正常吗？"}\n'
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"UserPromptSubmit","prompt":"对�\udcaf��\udcaf\udcb9 现在�\udcaf异�\udcae\udcae状�\udc80\udc81"}\n'
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PreToolUse","tool_name":"Bash","tool_input":{"command":"echo \\"完整测试：�\udc80��\udc80\udc83 �\udc92 异�\udcae\udcae �\udc92 得意\\"","description":"Full flow test"},"tool_use_id":"Bash_288"}\n'
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PostToolUse","tool_name":"Bash","tool_input":{"command":"echo \\"完整测试：�\udc80��\udc80\udc83 �\udc92 异�\udcae\udcae �\udc92 得意\\"","description":"Full flow test"},"tool_response":{"stdout":"完整测试：�\udc80��\udc80\udc83 �\udc92 异�\udcae\udcae �\udc92 得意","stderr":"","interrupted":false,"isImage":false,"noOutputExpected":fa'
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PreToolUse","tool_name":"Bash","tool_input":{"command":"D:/Anaconda/python.exe D:/CODE/hooks/display/display.py send 4","description":"Send SUCCESS state"},"tool_use_id":"Bash_289"}\n'
+Return code: 0
+Stderr: [hook] Sent state=3
+
+---
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PostToolUse","tool_name":"Bash","tool_input":{"command":"D:/Anaconda/python.exe D:/CODE/hooks/display/display.py send 4","description":"Send SUCCESS state"},"tool_response":{"stdout":"pygame 2.6.1 (SDL 2.28.4, Python 3.12.7)\\r\\nHello from the pygame co'
+Return code: 0
+Stderr: [hook] Sent state=8
+
+---
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"Stop","stop_hook_active":false,"last_assistant_message":"现在应�\udcaf�显�\udcba **状�\udc80\udc814（SUCCESS/得意�\udc89**！成步堂露出得意的表情了吗？😄\\n\\n**总结当前系统状�\udc80�：**\\n- 🎮 **Hook 系统**：�\udcad�常发�\udc80\udc81 TCP 消息\\n- 🏛�\udc8f **显示�\udca8**：�\udcad�常接收并显示成步堂动画\\n- ⏱️ **保护机制**：最少停�\udc992秒，防�\udcad�快速切�\udca2\\n'
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"UserPromptSubmit","prompt":"哈哈哈哈哈哈哈哈哈哈哈哈 再来�\udc80套表�\udc85 我�\udca6�发给朋�\udc8b"}\n'
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"Stop","stop_hook_active":false,"last_assistant_message":"好的！你想�\udca6�哪套表情？😄\\n\\n**�\udcaf选方案：**\\n\\n1. **御剑怜侍**（�\udca3\udc80察官�\udc89- 成�\udcad�堂的�\udcae�敌\\n   - 状�\udc80�映射：IDLE=冷笑，WORKING=拍�\udca1�，FAILURE=崩溃\\n   \\n2. **真�\udcae\udcb5**（灵媒）- �\udcaf爱系\\n   - 状�\udc80�映射：IDLE=眨眼，WORKING=�\udcac唤，FAILUR'
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"UserPromptSubmit","prompt":"随便�\udc80套就�\udc8c"}\n'
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PreToolUse","tool_name":"Bash","tool_input":{"command":"ls -d \\"F:/BaiduNetdiskDownload\\"/*/ 2>/dev/null | head -10","description":"Check for other character folders"},"tool_use_id":"Bash_290"}\n'
+Return code: 0
+Stderr: [hook] Sent state=3
+
+---
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PermissionRequest","tool_name":"Bash","tool_input":{"command":"ls -d \\"F:/BaiduNetdiskDownload\\"/*/ 2>/dev/null | head -10","description":"Check for other character folders"},"permission_suggestions":[{"type":"addRules","rules":[{"toolName":"Read","rul'
+Return code: 0
+Stderr: [hook] Sent state=7
+
+---
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PostToolUse","tool_name":"Bash","tool_input":{"command":"ls -d \\"F:/BaiduNetdiskDownload\\"/*/ 2>/dev/null | head -10","description":"Check for other character folders"},"tool_response":{"stdout":"F:/BaiduNetdiskDownload/Animate/\\nF:/BaiduNetdiskDownloa'
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"UserPromptSubmit","prompt":"但是我�\udcaf�的�\udc80套是 从�\udc80��\udc80�到到成功的这一�\udc97"}\n'
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PreToolUse","tool_name":"Bash","tool_input":{"command":"cd D:/CODE/hooks && zip -r 成�\udcad�堂龙一显示�\udca8.zip . -x \\"*.pyc\\" \\"__pycache__/*\\" \\".claude/*\\" \\".cursor/*\\" \\"hook_debug.log\\" 2>/dev/null && ls -lh 成�\udcad�堂龙一显示�\udca8.zip","description":"Package project'
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PermissionRequest","tool_name":"Bash","tool_input":{"command":"cd D:/CODE/hooks && zip -r 成�\udcad�堂龙一显示�\udca8.zip . -x \\"*.pyc\\" \\"__pycache__/*\\" \\".claude/*\\" \\".cursor/*\\" \\"hook_debug.log\\" 2>/dev/null && ls -lh 成�\udcad�堂龙一显示�\udca8.zip","description":"Package '
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"UserPromptSubmit","prompt":"不是�\udc8a 就是�\udc80套状态吧 从状�\udc811到状�\udc817"}\n'
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PreToolUse","tool_name":"Bash","tool_input":{"command":"echo \\"状�\udc80\udc811: ANALYZING (思�\udc80\udc83) - 成�\udcad�堂手指点下巴\"","description":"State 1"},"tool_use_id":"Bash_292"}\n'
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PostToolUse","tool_name":"Bash","tool_input":{"command":"echo \\"状�\udc80\udc811: ANALYZING (思�\udc80\udc83) - 成�\udcad�堂手指点下巴\"","description":"State 1"},"tool_response":{"stdout":"状�\udc80\udc811: ANALYZING (思�\udc80\udc83) - 成�\udcad�堂手指点下�\udcb4","stderr":"","interrupted":false,"isImage":false,"noOu'
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PreToolUse","tool_name":"Bash","tool_input":{"command":"D:/Anaconda/python.exe D:/CODE/hooks/display/display.py send 1","description":"Send state 1"},"tool_use_id":"Bash_293"}\n'
+Return code: 0
+Stderr: [hook] Sent state=3
+
+---
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PostToolUse","tool_name":"Bash","tool_input":{"command":"D:/Anaconda/python.exe D:/CODE/hooks/display/display.py send 1","description":"Send state 1"},"tool_response":{"stdout":"pygame 2.6.1 (SDL 2.28.4, Python 3.12.7)\\r\\nHello from the pygame communit'
+Return code: 0
+Stderr: [hook] Sent state=8
+
+---
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PreToolUse","tool_name":"Bash","tool_input":{"command":"echo \\"状�\udc80\udc812: PROCESSING (处理) - 集中精�\udca5�\"","description":"State 2"},"tool_use_id":"Bash_294"}\n'
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PostToolUse","tool_name":"Bash","tool_input":{"command":"echo \\"状�\udc80\udc812: PROCESSING (处理) - 集中精�\udca5�\"","description":"State 2"},"tool_response":{"stdout":"状�\udc80\udc812: PROCESSING (处理) - 集中精�\udca5\udc9e","stderr":"","interrupted":false,"isImage":false,"noOutputExpected'
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PreToolUse","tool_name":"Bash","tool_input":{"command":"D:/Anaconda/python.exe D:/CODE/hooks/display/display.py send 2","description":"Send state 2"},"tool_use_id":"Bash_295"}\n'
+Return code: 0
+Stderr: [hook] Sent state=3
+
+---
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PostToolUse","tool_name":"Bash","tool_input":{"command":"D:/Anaconda/python.exe D:/CODE/hooks/display/display.py send 2","description":"Send state 2"},"tool_response":{"stdout":"pygame 2.6.1 (SDL 2.28.4, Python 3.12.7)\\r\\nHello from the pygame communit'
+Return code: 0
+Stderr: [hook] Sent state=8
+
+---
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PreToolUse","tool_name":"Bash","tool_input":{"command":"echo \\"状�\udc80\udc813: EXECUTING (执�\udca1\udc8c) - 异�\udcae\udcae！拍桌\"","description":"State 3"},"tool_use_id":"Bash_296"}\n'
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PostToolUse","tool_name":"Bash","tool_input":{"command":"echo \\"状�\udc80\udc813: EXECUTING (执�\udca1\udc8c) - 异�\udcae\udcae！拍桌\"","description":"State 3"},"tool_response":{"stdout":"状�\udc80\udc813: EXECUTING (执�\udca1\udc8c) - 异�\udcae\udcae！拍�\udc8c","stderr":"","interrupted":false,"isImage":false,"noOutputExpe'
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PreToolUse","tool_name":"Bash","tool_input":{"command":"D:/Anaconda/python.exe D:/CODE/hooks/display/display.py send 3","description":"Send state 3"},"tool_use_id":"Bash_297"}\n'
+Return code: 0
+Stderr: [hook] Sent state=3
+
+---
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PostToolUse","tool_name":"Bash","tool_input":{"command":"D:/Anaconda/python.exe D:/CODE/hooks/display/display.py send 3","description":"Send state 3"},"tool_response":{"stdout":"pygame 2.6.1 (SDL 2.28.4, Python 3.12.7)\\r\\nHello from the pygame communit'
+Return code: 0
+Stderr: [hook] Sent state=8
+
+---
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PreToolUse","tool_name":"Bash","tool_input":{"command":"echo \\"状�\udc80\udc814: SUCCESS (成功) - 得意�\udcae笑\"","description":"State 4"},"tool_use_id":"Bash_298"}\n'
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PostToolUse","tool_name":"Bash","tool_input":{"command":"echo \\"状�\udc80\udc814: SUCCESS (成功) - 得意�\udcae笑\"","description":"State 4"},"tool_response":{"stdout":"状�\udc80\udc814: SUCCESS (成功) - 得意�\udcae�\udc91","stderr":"","interrupted":false,"isImage":false,"noOutputExpected":fals'
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PreToolUse","tool_name":"Bash","tool_input":{"command":"D:/Anaconda/python.exe D:/CODE/hooks/display/display.py send 4","description":"Send state 4"},"tool_use_id":"Bash_299"}\n'
+Return code: 0
+Stderr: [hook] Sent state=3
+
+---
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PostToolUse","tool_name":"Bash","tool_input":{"command":"D:/Anaconda/python.exe D:/CODE/hooks/display/display.py send 4","description":"Send state 4"},"tool_response":{"stdout":"pygame 2.6.1 (SDL 2.28.4, Python 3.12.7)\\r\\nHello from the pygame communit'
+Return code: 0
+Stderr: [hook] Sent state=8
+
+---
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PreToolUse","tool_name":"Bash","tool_input":{"command":"echo \\"状�\udc80\udc815: FAILURE (失败) - 尴尬流汗\\"","description":"State 5"},"tool_use_id":"Bash_300"}\n'
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PostToolUse","tool_name":"Bash","tool_input":{"command":"echo \\"状�\udc80\udc815: FAILURE (失败) - 尴尬流汗\\"","description":"State 5"},"tool_response":{"stdout":"状�\udc80\udc815: FAILURE (失败) - 尴尬流汗","stderr":"","interrupted":false,"isImage":false,"noOutputExpected":false'
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PreToolUse","tool_name":"Bash","tool_input":{"command":"D:/Anaconda/python.exe D:/CODE/hooks/display/display.py send 5","description":"Send state 5"},"tool_use_id":"Bash_301"}\n'
+Return code: 0
+Stderr: [hook] Sent state=3
+
+---
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PostToolUse","tool_name":"Bash","tool_input":{"command":"D:/Anaconda/python.exe D:/CODE/hooks/display/display.py send 5","description":"Send state 5"},"tool_response":{"stdout":"pygame 2.6.1 (SDL 2.28.4, Python 3.12.7)\\r\\nHello from the pygame communit'
+Return code: 0
+Stderr: [hook] Sent state=8
+
+---
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PreToolUse","tool_name":"Bash","tool_input":{"command":"echo \\"状�\udc80\udc816: CRITICAL (严重错�\udcaf\udcaf) - 绝望\\"","description":"State 6"},"tool_use_id":"Bash_302"}\n'
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PostToolUse","tool_name":"Bash","tool_input":{"command":"echo \\"状�\udc80\udc816: CRITICAL (严重错�\udcaf\udcaf) - 绝望\\"","description":"State 6"},"tool_response":{"stdout":"状�\udc80\udc816: CRITICAL (严重错�\udcaf\udcaf) - 绝望","stderr":"","interrupted":false,"isImage":false,"noOutputExpected":f'
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PreToolUse","tool_name":"Bash","tool_input":{"command":"D:/Anaconda/python.exe D:/CODE/hooks/display/display.py send 6","description":"Send state 6"},"tool_use_id":"Bash_303"}\n'
+Return code: 0
+Stderr: [hook] Sent state=3
+
+---
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PostToolUse","tool_name":"Bash","tool_input":{"command":"D:/Anaconda/python.exe D:/CODE/hooks/display/display.py send 6","description":"Send state 6"},"tool_response":{"stdout":"pygame 2.6.1 (SDL 2.28.4, Python 3.12.7)\\r\\nHello from the pygame communit'
+Return code: 0
+Stderr: [hook] Sent state=8
+
+---
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PreToolUse","tool_name":"Bash","tool_input":{"command":"echo \\"状�\udc80\udc817: DISPLAY (等待) - 看文件\"","description":"State 7"},"tool_use_id":"Bash_304"}\n'
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PostToolUse","tool_name":"Bash","tool_input":{"command":"echo \\"状�\udc80\udc817: DISPLAY (等待) - 看文件\"","description":"State 7"},"tool_response":{"stdout":"状�\udc80\udc817: DISPLAY (等待) - 看文�\udcb6","stderr":"","interrupted":false,"isImage":false,"noOutputExpected":false},"'
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PreToolUse","tool_name":"Bash","tool_input":{"command":"D:/Anaconda/python.exe D:/CODE/hooks/display/display.py send 7","description":"Send state 7"},"tool_use_id":"Bash_305"}\n'
+Return code: 0
+Stderr: [hook] Sent state=3
+
+---
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PostToolUse","tool_name":"Bash","tool_input":{"command":"D:/Anaconda/python.exe D:/CODE/hooks/display/display.py send 7","description":"Send state 7"},"tool_response":{"stdout":"pygame 2.6.1 (SDL 2.28.4, Python 3.12.7)\\r\\nHello from the pygame communit'
+Return code: 0
+Stderr: [hook] Sent state=8
+
+---
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"Stop","stop_hook_active":false,"last_assistant_message":"**状�\udc80\udc817 (DISPLAY/等待) - 看文�\udcb6 📄**\\n\\n�\udcad放一次后停住！\n\\n---\\n\\n🎉 **完整流程展示完毕�\udc81**\\n\\n从�\udc80��\udc80\udc83(1) �\udc92 处理(2) �\udc92 异�\udcae\udcae(3) �\udc92 成功(4) �\udc92 尴尬(5) �\udc92 绝望(6) �\udc92 看文�\udcb6(7)\\n\\n这�\udca5�表情�\udca4�发给朋友了吗？😄"}\n'
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"UserPromptSubmit","prompt":"我�\udca7�得hook的切换有点慢 每个状�\udc80�切�\udca2之后 要等好久我的小屏幕才会变�\udc96"}\n'
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PreToolUse","tool_name":"Edit","tool_input":{"file_path":"D:\\\\CODE\\\\hooks\\\\display\\\\display.py","old_string":"    min_display_time: float = 2.0  # �\udc80少停�\udc992�\udc92","new_string":"    min_display_time: float = 0.3  # �\udc80少停�\udc990.3秒，响应更快","replace_all":false},'
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PostToolUse","tool_name":"Edit","tool_input":{"file_path":"D:\\\\CODE\\\\hooks\\\\display\\\\display.py","old_string":"    min_display_time: float = 2.0  # �\udc80少停�\udc992�\udc92","new_string":"    min_display_time: float = 0.3  # �\udc80少停�\udc990.3秒，响应更快","replace_all":false}'
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PreToolUse","tool_name":"Bash","tool_input":{"command":"powershell -Command \\"Get-Process python | Stop-Process -Force\\" 2>nul & sleep 1 & cscript //B //Nologo D:/CODE/hooks/launch_display.vbs & sleep 2","description":"Restart with faster switching"},"'
+Return code: 0
+Stderr: [hook] Sent state=3
+
+---
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PostToolUse","tool_name":"Bash","tool_input":{"command":"powershell -Command \\"Get-Process python | Stop-Process -Force\\" 2>nul & sleep 1 & cscript //B //Nologo D:/CODE/hooks/launch_display.vbs & sleep 2","description":"Restart with faster switching"},'
+Return code: 0
+Stderr: [hook] Error: timed out
+
+---
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PreToolUse","tool_name":"Bash","tool_input":{"command":"echo \\"测试�\udcab速切�\udca2！\"","description":"Test fast switching"},"tool_use_id":"Bash_308"}\n'
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PostToolUse","tool_name":"Bash","tool_input":{"command":"echo \\"测试�\udcab速切�\udca2！\"","description":"Test fast switching"},"tool_response":{"stdout":"测试�\udcab速切�\udca2�\udc81","stderr":"","interrupted":false,"isImage":false,"noOutputExpected":false},"tool_use_id":"Bash_3'
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"Stop","stop_hook_active":false,"last_assistant_message":"现在应�\udcaf�快多了！最少停留改成了 **0.3�\udc92**。\n\\n你发送消�\udcaf后，小屏幕�\udca4�久切换？还�\udcaf�\udcaa慢吗？�\udca6�不要改�\udc90 **0.1�\udc92** 或�\udc80�完全去掉延迟？"}\n'
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"UserPromptSubmit","prompt":"没起来服务吧..."}\n'
+Return code: 0
+Stderr: [hook] Error: timed out
+
+---
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PreToolUse","tool_name":"Bash","tool_input":{"command":"tasklist | grep python || echo \\"没运行\"","description":"Check if display is running"},"tool_use_id":"Bash_309"}\n'
+Return code: 0
+Stderr: 
+---
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PostToolUse","tool_name":"Bash","tool_input":{"command":"tasklist | grep python || echo \\"没运行\"","description":"Check if display is running"},"tool_response":{"stdout":"没运�\udc8c","stderr":"","interrupted":false,"isImage":false,"noOutputExpected":false},"'
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PreToolUse","tool_name":"Bash","tool_input":{"command":"cscript //B //Nologo D:/CODE/hooks/launch_display.vbs & sleep 3 & tasklist | grep python","description":"Start display"},"tool_use_id":"Bash_310"}\n'
+Return code: 0
+Stderr: [hook] Error: timed out
+
+---
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PostToolUse","tool_name":"Bash","tool_input":{"command":"cscript //B //Nologo D:/CODE/hooks/launch_display.vbs & sleep 3 & tasklist | grep python","description":"Start display"},"tool_response":{"stdout":"python.exe                   67544 Console     '
+Return code: 0
+Stderr: [hook] Error: timed out
+
+---
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PreToolUse","tool_name":"Bash","tool_input":{"command":"echo \\"测试�\udcab速响应！\\"","description":"Test fast response"},"tool_use_id":"Bash_311"}\n'
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PostToolUse","tool_name":"Bash","tool_input":{"command":"echo \\"测试�\udcab速响应！\\"","description":"Test fast response"},"tool_response":{"stdout":"测试�\udcab速响应！","stderr":"","interrupted":false,"isImage":false,"noOutputExpected":false},"tool_use_id":"Bash_311'
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PreToolUse","tool_name":"Bash","tool_input":{"command":"tail -5 D:/CODE/hooks/hook_debug.log 2>/dev/null","description":"Check if hook was called"},"tool_use_id":"Bash_312"}\n'
+Return code: 0
+Stderr: [hook] Sent state=3
+
+---
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PostToolUse","tool_name":"Bash","tool_input":{"command":"tail -5 D:/CODE/hooks/hook_debug.log 2>/dev/null","description":"Check if hook was called"},"tool_response":{"stdout":"Stdin: \'{\\"session_id\\":\\"d97988d8-f317-4e26-a886-8953c4d0684b\\",\\"transcrip'
+Return code: 0
+Stderr: [hook] Sent state=8
+
+---
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PreToolUse","tool_name":"Bash","tool_input":{"command":"D:/Anaconda/python.exe D:/CODE/hooks/display/display.py send 1","description":"Send state 1 directly"},"tool_use_id":"Bash_313"}\n'
+Return code: 0
+Stderr: [hook] Sent state=3
+
+---
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PostToolUse","tool_name":"Bash","tool_input":{"command":"D:/Anaconda/python.exe D:/CODE/hooks/display/display.py send 1","description":"Send state 1 directly"},"tool_response":{"stdout":"pygame 2.6.1 (SDL 2.28.4, Python 3.12.7)\\r\\nHello from the pygame'
+Return code: 0
+Stderr: [hook] Sent state=8
+
+---
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"Stop","stop_hook_active":false,"last_assistant_message":"TCP 发�\udc80�成功！你的小屏幕现在显�\udcba **状�\udc80\udc811 (思�\udc80\udc83)** 了吗？\n\\n如果还没显示，可能是显示器卡住了，�\udcae�我重新�\udcaf动一次�\udc80\udc82"}\n'
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"UserPromptSubmit","prompt":"再来�\udc80�\udca1"}\n'
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PreToolUse","tool_name":"Bash","tool_input":{"command":"powershell -Command \\"Get-Process python | Stop-Process -Force\\" 2>nul; sleep 1; cscript //B //Nologo D:/CODE/hooks/launch_display.vbs; sleep 2; tasklist | findstr python","description":"Restart d'
+Return code: 0
+Stderr: [hook] Sent state=3
+
+---
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PermissionRequest","tool_name":"Bash","tool_input":{"command":"powershell -Command \\"Get-Process python | Stop-Process -Force\\" 2>nul; sleep 1; cscript //B //Nologo D:/CODE/hooks/launch_display.vbs; sleep 2; tasklist | findstr python","description":"Re'
+Return code: 0
+Stderr: [hook] Sent state=7
+
+---
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PostToolUse","tool_name":"Bash","tool_input":{"command":"powershell -Command \\"Get-Process python | Stop-Process -Force\\" 2>nul; sleep 1; cscript //B //Nologo D:/CODE/hooks/launch_display.vbs; sleep 2; tasklist | findstr python","description":"Restart '
+Return code: 0
+Stderr: [hook] Error: timed out
+
+---
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PreToolUse","tool_name":"Bash","tool_input":{"command":"D:/Anaconda/python.exe D:/CODE/hooks/display/display.py send 1 & timeout /t 1 > nul & D:/Anaconda/python.exe D:/CODE/hooks/display/display.py send 2 & timeout /t 1 > nul & D:/Anaconda/python.exe D'
+Return code: 0
+Stderr: [hook] Sent state=3
+
+---
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PermissionRequest","tool_name":"Bash","tool_input":{"command":"D:/Anaconda/python.exe D:/CODE/hooks/display/display.py send 1 & timeout /t 1 > nul & D:/Anaconda/python.exe D:/CODE/hooks/display/display.py send 2 & timeout /t 1 > nul & D:/Anaconda/pytho'
+Return code: 0
+Stderr: [hook] Sent state=7
+
+---
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PostToolUse","tool_name":"Bash","tool_input":{"command":"D:/Anaconda/python.exe D:/CODE/hooks/display/display.py send 1 & timeout /t 1 > nul & D:/Anaconda/python.exe D:/CODE/hooks/display/display.py send 2 & timeout /t 1 > nul & D:/Anaconda/python.exe '
+Return code: 0
+Stderr: [hook] Sent state=8
+
+---
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PreToolUse","tool_name":"Bash","tool_input":{"command":"D:/Anaconda/python.exe D:/CODE/hooks/display/display.py send 5 & D:/Anaconda/python.exe D:/CODE/hooks/display/display.py send 6 & D:/Anaconda/python.exe D:/CODE/hooks/display/display.py send 7","d'
+Return code: 0
+Stderr: [hook] Sent state=3
+
+---
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PostToolUse","tool_name":"Bash","tool_input":{"command":"D:/Anaconda/python.exe D:/CODE/hooks/display/display.py send 5 & D:/Anaconda/python.exe D:/CODE/hooks/display/display.py send 6 & D:/Anaconda/python.exe D:/CODE/hooks/display/display.py send 7","'
+Return code: 0
+Stderr: [hook] Sent state=8
+
+---
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"Stop","stop_hook_active":false,"last_assistant_message":"**完整流程已发送！** 🎉\\n\\n你的小屏幕应该依次显示了：\n1. �\udca4\udc94 **思�\udc80\udc83** (手指点下�\udcb4)\\n2. 😤 **集中** (专注表情)\\n3. �\udca1 **异�\udcae\udcae�\udc81** (拍�\udca1\udc8c)\\n4. ✌️ **得意** (�\udcae�\udc91)\\n5. 😅 **尴尬** (流汗)\\n6. 💔 **绝望** (崩溃)\\n7. 📄 **�'
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"UserPromptSubmit","prompt":"�\udc8d 现在的状态不�\udcaf7�\udc9f"}\n'
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PreToolUse","tool_name":"Bash","tool_input":{"command":"tasklist | findstr python","description":"Check if display is running"},"tool_use_id":"Bash_317"}\n'
+Return code: 0
+Stderr: [hook] Sent state=3
+
+---
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PostToolUse","tool_name":"Bash","tool_input":{"command":"tasklist | findstr python","description":"Check if display is running"},"tool_response":{"stdout":"python.exe                   61376 Console                   12    153,396 K","stderr":"","inter'
+Return code: 0
+Stderr: [hook] Sent state=8
+
+---
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PreToolUse","tool_name":"Bash","tool_input":{"command":"D:/Anaconda/python.exe -c \\"\\nimport socket\\nimport json\\nsock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\\nsock.settimeout(2)\\nsock.connect((\'127.0.0.1\', 19876))\\nsock.send((json.dumps({\''
+Return code: 0
+Stderr: [hook] Sent state=3
+
+---
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PostToolUse","tool_name":"Bash","tool_input":{"command":"D:/Anaconda/python.exe -c \\"\\nimport socket\\nimport json\\nsock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\\nsock.settimeout(2)\\nsock.connect((\'127.0.0.1\', 19876))\\nsock.send((json.dumps({'
+Return code: 0
+Stderr: [hook] Sent state=8
+
+---
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"Stop","stop_hook_active":false,"last_assistant_message":"发�\udc80�成功！你的小屏幕现在显示的�\udcaf�\udc80么状态？\\n\\n如果不是7（看纸），那显示的是�\udcaa�\udcaa？是还停留在之前的状态吗�\udc9f"}\n'
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"UserPromptSubmit","prompt":"�\udcaf异�\udcae\udcae的状�\udc81"}\n'
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PreToolUse","tool_name":"Bash","tool_input":{"command":"tasklist | findstr python || echo \\"已停�\udca2\\"","description":"Check if display is running"},"tool_use_id":"Bash_319"}\n'
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PostToolUse","tool_name":"Bash","tool_input":{"command":"tasklist | findstr python || echo \\"已停�\udca2\\"","description":"Check if display is running"},"tool_response":{"stdout":"python.exe                   61376 Console                   12    153,396 K",'
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PreToolUse","tool_name":"Bash","tool_input":{"command":"D:/Anaconda/python.exe D:/CODE/hooks/display/display.py send 0","description":"Send state 0 to test"},"tool_use_id":"Bash_320"}\n'
+Return code: 0
+Stderr: [hook] Sent state=3
+
+---
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PostToolUse","tool_name":"Bash","tool_input":{"command":"D:/Anaconda/python.exe D:/CODE/hooks/display/display.py send 0","description":"Send state 0 to test"},"tool_response":{"stdout":"pygame 2.6.1 (SDL 2.28.4, Python 3.12.7)\\r\\nHello from the pygame '
+Return code: 0
+Stderr: [hook] Sent state=8
+
+---
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PreToolUse","tool_name":"Bash","tool_input":{"command":"powershell -Command \\"Get-Process python | Stop-Process -Force\\"; sleep 1; cscript //B //Nologo D:/CODE/hooks/launch_display.vbs; sleep 2","description":"Force restart display"},"tool_use_id":"Bas'
+Return code: 0
+Stderr: [hook] Sent state=3
+
+---
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PostToolUse","tool_name":"Bash","tool_input":{"command":"powershell -Command \\"Get-Process python | Stop-Process -Force\\"; sleep 1; cscript //B //Nologo D:/CODE/hooks/launch_display.vbs; sleep 2","description":"Force restart display"},"tool_response":{'
+Return code: 0
+Stderr: [hook] Error: timed out
+
+---
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PreToolUse","tool_name":"Bash","tool_input":{"command":"tasklist | findstr python && D:/Anaconda/python.exe D:/CODE/hooks/display/display.py send 7","description":"Check and send state 7"},"tool_use_id":"Bash_322"}\n'
+Return code: 0
+Stderr: [hook] Sent state=3
+
+---
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"PostToolUse","tool_name":"Bash","tool_input":{"command":"tasklist | findstr python && D:/Anaconda/python.exe D:/CODE/hooks/display/display.py send 7","description":"Check and send state 7"},"tool_response":{"stdout":"python.exe                   68944 '
+Return code: 0
+Stderr: [hook] Sent state=8
+
+---
+=== Hook called ===
+Args: ['D:/CODE/hooks/hooks/hook_wrapper.py']
+Stdin: '{"session_id":"d97988d8-f317-4e26-a886-8953c4d0684b","transcript_path":"C:\\\\Users\\\\donghonglin\\\\.claude\\\\projects\\\\D--ClaudeCode\\\\d97988d8-f317-4e26-a886-8953c4d0684b.jsonl","cwd":"D:\\\\ClaudeCode","permission_mode":"acceptEdits","hook_event_name":"Stop","stop_hook_active":false,"last_assistant_message":"现在�\udca2？显�\udcba **状�\udc80\udc817 (DISPLAY/看纸)** 了吗�\udc9f"}\n'
