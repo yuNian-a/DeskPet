@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "hooks": {
+    "sessionStart": [
+      {
+        "command": "python .cursor/hooks/display_hook.py"
+      }
+    ],
+    "beforeSubmitPrompt": [
+      {
+        "command": "python .cursor/hooks/display_hook.py"
+      }
+    ],
+    "preToolUse": [
+      {
+        "command": "python .cursor/hooks/display_hook.py"
+      }
+    ],
+    "stop": [
+      {
+        "command": "python .cursor/hooks/display_hook.py"
+      }
+    ],
+    "sessionEnd": [
+      {
+        "command": "python .cursor/hooks/display_hook.py"
+      }
+    ],
+    "postToolUseFailure": [
+      {
+        "command": "python .cursor/hooks/display_hook.py"
+      }
+    ]
+  }
+}
