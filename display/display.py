@@ -83,15 +83,15 @@ def draw_court_foreground(screen):
 
 # 状态到文件名前缀的映射
 STATE_ASSETS = {
-    0: "cbt1-通常",      # BOOT
+    0: "cbt1-通常-1",    # BOOT
     1: "cbt1-思考",      # ANALYZING
-    2: "cbt1-集中",      # PROCESSING
-    3: "cbt1-异议",      # EXECUTING
+    2: "cbt1-通常-点头",      # PROCESSING
+    3: "cbt1-咖啡-喝",   # EXECUTING
     4: "cbt1-得意",      # SUCCESS
     5: "cbt1-尴尬",      # FAILURE
     6: "cbt1-绝望",      # CRITICAL
     7: "cbt1-看纸",      # DISPLAY
-    8: "cbt1-通常",      # IDLE
+    8: "cbt1-通常-1",    # IDLE
 }
 
 STATE_NAMES = {
@@ -315,9 +315,18 @@ class AppState:
     animations: dict = field(default_factory=dict)
     state_enter_time: float = 0.0  # 进入当前状态的时间
     min_display_time: float = 0.3  # 最少停留0.3秒，响应更快
+    auto_return_at: float = -1.0   # 自动切回待机的时间点，-1表示不切
+    auto_return_to: int = 8        # 自动切回的目标状态（默认IDLE）
+
+    # 哪些状态在N秒后自动切回IDLE
+    AUTO_RETURN_STATES: dict = field(default_factory=lambda: {
+        4: 2.0,  # SUCCESS → IDLE after 2s
+        5: 3.0,  # FAILURE → IDLE after 3s
+        6: 4.0,  # CRITICAL → IDLE after 4s
+    })
 
     def can_change_state(self) -> bool:
-        """检查是否可以切换状态（已停留至少2秒）"""
+        """检查是否可以切换状态（已停留至少min_display_time秒）"""
         return (self.elapsed - self.state_enter_time) >= self.min_display_time
 
     def enter_state(self, state_id: int):
@@ -326,6 +335,24 @@ class AppState:
             self.prev = self.current
             self.current = state_id
             self.state_enter_time = self.elapsed
+            # 设置自动回待机计时器
+            delay = self.AUTO_RETURN_STATES.get(state_id, -1)
+            if delay > 0:
+                self.auto_return_at = self.elapsed + delay
+            else:
+                self.auto_return_at = -1.0
+
+    def check_auto_return(self):
+        """检查是否需要自动切回待机，返回True表示发生了切换"""
+        if self.auto_return_at > 0 and self.elapsed >= self.auto_return_at:
+            self.auto_return_at = -1.0
+            target = self.auto_return_to
+            print(f"[display] Auto-return: {STATE_NAMES[self.current]} -> {STATE_NAMES[target]}")
+            self.prev = self.current
+            self.current = target
+            self.state_enter_time = self.elapsed
+            return True
+        return False
 
     def get_animation(self, state_id):
         if state_id not in self.animations:
@@ -499,6 +526,9 @@ def main():
 
         # 检查 TCP
         tcp.check(app)
+
+        # 自动回待机
+        app.check_auto_return()
 
         # 清屏
         screen.fill((0, 0, 0))
