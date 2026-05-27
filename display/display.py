@@ -83,21 +83,27 @@ def draw_court_foreground(screen):
 
 # 状态到文件名前缀的映射
 STATE_ASSETS = {
-    0: "cbt1-通常-1",    # BOOT
-    1: "cbt1-思考",      # ANALYZING
-    2: "cbt1-通常-点头",      # PROCESSING
-    3: "cbt1-咖啡-喝",   # EXECUTING
-    4: "cbt1-得意",      # SUCCESS
-    5: "cbt1-尴尬",      # FAILURE
-    6: "cbt1-绝望",      # CRITICAL
-    7: "cbt1-看纸",      # DISPLAY
-    8: "cbt1-通常-1",    # IDLE
+    0: "cbt1-通常-1",       # BOOT
+    1: "cbt1-思考-1",        # ANALYZING       普通思考
+    2: "cbt1-通常-点头",     # PROCESSING      读文件/搜索
+    3: "cbt1-咖啡-喝",       # EXECUTING       执行Shell/MCP
+    4: "cbt1-得意-1",        # SUCCESS         任务完成
+    5: "cbt1-尴尬-1",        # FAILURE         出错了
+    6: "cbt1-绝望",          # CRITICAL        严重错误
+    7: "cbt1-扶桌-1",        # DISPLAY         等待用户输入
+    8: "cbt1-通常-1",        # IDLE            待机
+    9: "cbt1-思考-动作",     # THINKING        深度思考(thinking model)
+    10: "cbt1-看纸-1",       # PLANNING        Plan模式
+    11: "cbt1-集中-1",       # SEARCHING       搜索/读文件
+    12: "cbt1-通常-摇头",    # ABORTED         被用户打断
 }
 
 STATE_NAMES = {
-    0: "BOOT",       1: "ANALYZING",  2: "PROCESSING",
-    3: "EXECUTING",  4: "SUCCESS",    5: "FAILURE",
-    6: "CRITICAL",   7: "DISPLAY",    8: "IDLE",
+    0: "BOOT",       1: "ANALYZING",   2: "PROCESSING",
+    3: "EXECUTING",  4: "SUCCESS",     5: "FAILURE",
+    6: "CRITICAL",   7: "DISPLAY",     8: "IDLE",
+    9: "THINKING",   10: "PLANNING",   11: "SEARCHING",
+    12: "ABORTED",
 }
 
 # ═══════════════════════════════════════════════════════════════════════════════
@@ -320,9 +326,10 @@ class AppState:
 
     # 哪些状态在N秒后自动切回IDLE
     AUTO_RETURN_STATES: dict = field(default_factory=lambda: {
-        4: 2.0,  # SUCCESS → IDLE after 2s
-        5: 3.0,  # FAILURE → IDLE after 3s
-        6: 4.0,  # CRITICAL → IDLE after 4s
+        4: 2.0,   # SUCCESS  → IDLE after 2s
+        5: 3.0,   # FAILURE  → IDLE after 3s
+        6: 4.0,   # CRITICAL → IDLE after 4s
+        12: 2.0,  # ABORTED  → IDLE after 2s
     })
 
     def can_change_state(self) -> bool:
